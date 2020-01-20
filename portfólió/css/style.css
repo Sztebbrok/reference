@@ -1,0 +1,125 @@
+html{
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    margin:0;
+    
+}
+
+#main {
+    position: relative;
+}
+
+#navbar{
+    height: 250px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(255,255,255,1) 90%);
+    color: white;
+    font-size: 26px;
+}
+
+#left{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-right: 1px dashed grey;
+    box-sizing: border-box;
+    height: 76vh
+  
+
+}
+
+#right{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 76vh
+}
+
+#score-1{
+    height: 500px;
+}
+
+#score-2{
+    height: 500px;
+}
+
+#newgame{
+    background-color: rgba(200,200,200,0.9);
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    top: 500px;
+    right: 45%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+#throw{
+    
+    background-color: rgba(200,200,200,0.9);
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    top: 300px;
+    right: 45%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.addcube{
+    height:120px;
+    width: 120px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+#dice-left{
+    float: left;
+    margin: 30px 0 0 20px;
+    font-size: 150px;
+}
+
+#dice-right{
+    float:right;
+    margin: 30px 20px 0 0;
+    font-size: 150px;
+    color: black;
+}
+
+#title{ 
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 80px;
+    color: rgba(255,255,255,0.8)
+
+}
+
+#score-1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#score-1-value {
+    font-size: 70px;
+    margin-top: 40px;
+    color: red;
+}
+
+#score-2 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#score-2-value {
+    font-size: 70px;
+    margin-top: 40px;
+    color: red;
+}
+
+.active {
+    background-color: rgba(20,20,20,0.1);
+}
